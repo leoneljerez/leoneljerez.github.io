@@ -1,217 +1,341 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Home - Leonel's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <title>Leonel's Portfolio</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <meta charset="UTF-8">
+    <meta name="description" content="Leonel's Portfolio">
+    <meta name="keywords" content="Jerez, Jr, Leonel, Portfolio, Software, Engineer, Developer">
+    <meta name="author" content="Leonel Jerez Jr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is Portfolio</h1>
-						<ul class="actions">
-							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="about.html">About Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/leonel-jerez/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.github.com/leoneljerez/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+<body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky" aria-label="Navbar">
+        <div class="container">
+            <a class="navbar-brand pt-0" href="#top">
+                <h1>Leonel</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-				<!-- Main -->
-					<div id="main">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+    <!-- Hero -->
+    <section class="bg-dark text-secondary px-4 py-5 text-center align-items-center d-flex splash row justify-content-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">Hi, I'm Leonel</h1>
+            <h1 class="display-5 fw-bold text-white">
+                <p><span id="type">Software Engineer.</span></p>
+            </h1>
+            <div class="col-lg-6 mx-auto">
+                <div class="d-flex justify-content-center">
+                    <a href="./media/Leonel-Jerez-Jr-Resume.pdf" class="btn btn-outline-info btn-md px-4 me-sm-3 fw-bold" download>Download My Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+     <!-- About Me -->
+     <article class="bg-light" id="about">
+        <section class="container pb-5">
+            <div class="pt-4"></div>
+            <h1 class="pt-5">About Me</h1>
+            <div class="row pt-1 py-5">
+                <div class="col-md-7 d-flex align-items-center row">
+                    <div class="py-5">
+                        <p class="lead">
+                            Hi, my name is Leonel. I love programming things that are creative and innovative. 
+                            I started programming back in 2015 when I had the chance to work on a private server for a game that I used to play.
+                            I try to be well-rounded so I've done everything from Game Development, Web Development, Mobile App Development, and even making .NET WPF Apps!
+                        </p>
+                        <p class="lead">
+                            I am a very quick learner and am always striving to find the 'newest' thing in Computer Science. 
+                            I constantly try to improve the way I program. I've been recently spending a lot of time on my web development to hone in on my skills.
+                        </p>
+                        <p class="lead"> Here are some technologies I've been using recently:</p>
+                        <div class="d-flex ms-auto">
+                            <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>React.JS</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>HTML5/CCS3</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>WordPress</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>Bootstrap</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm" disabled>C#</button>
+                        </div>         
+                    </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-center">
+                    <rect width="100%" height="100%" fill="#eee">
+                        <picture class="img-fluid mx-auto">
+                            <img src="./media/about.png" width="100%" height="auto">
+                        </picture>
+                    </rect>
+                </div>
+            </div>
+        </section>
+    </article>
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
+    <!-- Main -->
+    <main class="page-main">
+        <!-- Work Experience -->
+        <article class="bg-dark" id="work">
+            <section class="container pb-5">
+                <div class="pt-4"></div>
+                <h1 class="pt-5 text-white">Work Experience</h1>
+                <div class="section section-md py-5">
+                    <div class="container">
+                       <div class="row mt-4">
+                          <div class="col-md-10 mx-auto">
+                             <!-- Timeline -->
+                             <div class="timeline">
+                                <!-- Guided Innate Aware, Life Coaching -->
+                                <div class="timeline-container left">
+                                    <div class="timeline-content">
+                                        <h5 class="my-3">Guided Innate Aware, Life Coaching</h5>
+                                        <p>
+                                            Designed modern web pages and remodeled problem areas that were causing trouble with website visibility and consistency.
+                                            Collaborated in fixing errors in social media business profile to attract more customers and have a more professional look.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Jerez Electric Heating & Cooling -->
+                                <div class="timeline-container right">
+                                    <div class="timeline-content">
+                                        <h5 class="my-3">Jerez Electric Heating & Cooling</h5>
+                                        <p>
+                                            Assisted on projects and communicating with the team to complete jobs successfully.
+                                            Organized receipts and calculated the amount spent throughout the year to prepare for taxes.
+                                            Received telephone calls, updated customers on project status, greeted visitors and ascertained the nature of the calls or visits for Managers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Shaiya Private Server -->
+                                <div class="timeline-container left">
+                                    <div class="timeline-content">
+                                        <h5 class="my-3">Shaiya Private Server</h5>
+                                        <p>
+                                            Contributed in the creation and development of a successful private server for a game with over 1000 players using Microsoft SQL Server.
+                                            Assisted in creating and optimizing SQL stored procedures and other basic database scripts. As well as, boosting engagement by creating new monsters, items, and events for players.
+                                        </p>
+                                    </div>
+                                </div>
+                             </div>
+                             <!--End of Timeline-->
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+            </section>
+        </article>
+        
+        <!-- Notable Projects -->
+        <article class="bg-light" id="projects">
+            <section class="container pb-5">
+                <div class="pt-4"></div>
+                <h1 class="pt-5">Notable Projects</h1>
+                <!-- The Movie Database -->
+                <div class="row pt-1 py-5">
+                    <div class="col-md-7 d-flex align-items-center row">
+                        <div class="py-5">
+                            <div>
+                                <h2>The Movie Database.</h2>
+                                <p class="lead">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>
+                            </div>
+                            <div class="d-flex ms-auto">
+                                <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>React.JS</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>HTML5</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" disabled>CSS3</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <rect width="100%" height="100%" fill="#eee">
+                            <picture class="img-fluid mx-auto">
+                                <img src="https://via.placeholder.com/500/" width="100%" height="auto">
+                            </picture>
+                        </rect>
+                    </div>
+                </div>
 
-					</div>
+                <!-- Garden Spy -->
+                <div class="row pt-5 py-5">
+                    <div class="col-md-7 order-md-2 d-flex align-items-center row">
+                        <div class="py-5">
+                            <div>
+                                <h2>Garden Spy.</h2>
+                                <p class="lead">Using Android Studio with a team, I created an app that will take care of a plant by itself.</p>
+                            </div>
+                            <div class="d-flex">
+                                <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>Java</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>Python</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm me-2" disabled>Firebase</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" disabled>Android Studio</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-5 order-md-1">                    
+                        <rect width="100%" height="100%" fill="#eee">
+                            <picture class="img-fluid mx-auto">
+                                <img src="https://via.placeholder.com/500/" width="100%" height="auto">
+                            </picture>
+                        </rect>
+                    </div>
+                </div>
+            </section>
+        </article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/leonel-jerez/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://www.github.com/leoneljerez/" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        <!-- All Projects -->
+        <article class="bg-dark">
+            <section class="container pb-5">
+                <div class="pt-4"></div>
+                <h1 class="pt-5 text-white">Projects</h1>
+                <div class="album py-5 bg-dark">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+                            <div class="col">
+                                <div class="card shadow-sm">                                 
+                                    <rect width="100%" height="100%" fill="#55595c">
+                                        <picture class="card-img-top">
+                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
+                                        </picture>
+                                    </rect>
+                                    <div class="card-body">
+                                        <h5 class="featurette-heading">The Movie Database.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-group">
+                                                <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                            </div>
+                                            <div class="ms-auto">
+                                                <small class="text-muted me-1">React.JS</small>
+                                                <small class="text-muted me-1">HTML5</small>
+                                                <small class="text-muted">CSS3</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <rect width="100%" height="100%" fill="#55595c">
+                                        <picture class="card-img-top">
+                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
+                                        </picture>
+                                    </rect>
+                                    <div class="card-body">
+                                        <h5 class="featurette-heading">Pac-Man Dodge.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using Unity3D with a team, I recreated Pac-Man with advanced AI.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-group">
+                                                <a href="https://github.com/leoneljerez/PacmanDodge/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                            </div>
+                                            <div class="ms-auto">
+                                                <small class="text-muted me-1">C#</small>
+                                                <small class="text-muted">Unity</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <rect width="100%" height="100%" fill="#55595c">
+                                        <picture class="card-img-top">
+                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
+                                        </picture>
+                                    </rect>
+                                    <div class="card-body">
+                                        <h5 class="featurette-heading">Garden Spy.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using Android Studio with a team, I created an app that will take care of a plant by itself.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-group">
+                                                <a href="https://github.com/leoneljerez/superhots/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                            </div>
+                                            <div class="ms-auto">
+                                                <small class="text-muted me-1">Java</small>
+                                                <small class="text-muted me-1">Python</small>
+                                                <small class="text-muted me-1">Firebase</small>
+                                                <small class="text-muted">Android Studio</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <rect width="100%" height="100%" fill="#55595c">
+                                        <picture class="card-img-top">
+                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
+                                        </picture>
+                                    </rect>
+                                    <div class="card-body">
+                                        <h5 class="featurette-heading">The Movie Database.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-group">
+                                                <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                            </div>
+                                            <div class="ms-auto">
+                                                <small class="text-muted me-1">React.JS</small>
+                                                <small class="text-muted me-1">HTML5</small>
+                                                <small class="text-muted">CSS3</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://github.com/leoneljerez/" target="_blank" class="btn btn-outline-info btn-md px-4 me-sm-3 fw-bold">View More On Github</a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
 
-			</div>
+    <!-- Footer -->
+    <footer class="py-3 my-4">
+        <div class="container">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="https://github.com/leoneljerez/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: white;"></i></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/leonel-jerez/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-linkedin icon-overlay" style="color: white;"></i></a></li>
+            </ul>
+            <p class="text-center text-muted"><small>Copyright © Leonel Jerez Jr. All Rights Reserved.</small></p>
+        </div>
+    </footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typeit@8.0.3/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#type", {
+            strings: ["Software Developer.", "Game Developer."],
+            lifeLike: true,
+            breakLines: false,
+            loop: true,
+            html: true,
+        }).go();
+    </script>
+</body>
 </html>
