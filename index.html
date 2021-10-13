@@ -23,11 +23,9 @@
                 <a class="navbar-brand pt-0" href="#top">
                     <h1>Leonel</h1>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
@@ -73,7 +71,7 @@
                         </p>
                         <p class="lead">
                             I am a very quick learner and am always striving to find the 'newest' thing in Computer Science. 
-                            I constantly try to improve the way I program. I've been recently spending a lot of time on my web development to hone in on my skills.
+                            I constantly try to improve the way I program. I've been recently spending a lot of time on my web development to hone in on my web skills.
                         </p>
                         <p class="lead"> Here are some technologies I've been using recently:</p>
                         <div class="d-flex ms-auto flex-wrap">
@@ -167,13 +165,12 @@
                                 <button type="button" class="btn btn-outline-secondary btn-sm me-2 mb-1" disabled>HTML5</button>
                                 <button type="button" class="btn btn-outline-secondary btn-sm mb-1" disabled>CSS3</button>
                             </div>
-                        </div>
-                        
+                        </div>                  
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 d-flex align-items-center">
                         <rect width="100%" height="100%" fill="#eee">
-                            <picture class="img-fluid mx-auto">
-                                <img src="https://via.placeholder.com/500/" width="100%" height="auto">
+                            <picture class="img-fluid mx-auto ">
+                                <img src="./media/PacMan.gif" width="100%" height="auto" class="">
                             </picture>
                         </rect>
                     </div>
@@ -193,10 +190,9 @@
                                 <button type="button" class="btn btn-outline-secondary btn-sm me-2 mb-1" disabled>Firebase</button>
                                 <button type="button" class="btn btn-outline-secondary btn-sm mb-1" disabled>Android Studio</button>
                             </div>
-                        </div>
-                        
+                        </div>             
                     </div>
-                    <div class="col-md-5 order-md-1">                    
+                    <div class="col-md-5 order-md-1 d-flex align-items-center">                    
                         <rect width="100%" height="100%" fill="#eee">
                             <picture class="img-fluid mx-auto">
                                 <img src="https://via.placeholder.com/500/" width="100%" height="auto">
@@ -216,94 +212,86 @@
                     <div class="container">
                         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
                             <div class="col">
-                                <div class="card shadow-sm">                                 
-                                    <rect width="100%" height="100%" fill="#55595c">
-                                        <picture class="card-img-top">
-                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
-                                        </picture>
-                                    </rect>
+                                <div class="card h-100 shadow-sm">                                     
+                                    <picture class="card-img-top">
+                                        <img width="150px" height="100px" class="moviedb">
+                                    </picture>                                                                                                 
                                     <div class="card-body">
-                                        <h5 class="featurette-heading">The Movie Database.<span class="text-muted"></span></h5>
+                                        <h5 class="card-title">The Movie Database.<span class="text-muted"></span></h5>
                                         <p class="card-text">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
-                                            </div>
-                                            <div class="ms-auto flex-wrap">
-                                                <small class="text-muted me-1 mb-1">React.JS</small>
-                                                <small class="text-muted me-1 mb-1">HTML5</small>
-                                                <small class="text-muted mb-1">CSS3</small>
-                                            </div>
+                                    </div>
+                                    <div class="card-footer d-flex align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                        </div>
+                                        <div class="ms-auto flex-wrap">
+                                            <small class="text-muted me-1 mb-1">React.JS</small>
+                                            <small class="text-muted me-1 mb-1">HTML5</small>
+                                            <small class="text-muted mb-1">CSS3</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card shadow-sm">
-                                    <rect width="100%" height="100%" fill="#55595c">
-                                        <picture class="card-img-top">
-                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
-                                        </picture>
-                                    </rect>
+                                <div class="card h-100 shadow-sm">                                 
+                                    <picture class="card-img-top">
+                                        <img width="150px" height="100px" class="pacman">
+                                    </picture>
                                     <div class="card-body">
-                                        <h5 class="featurette-heading">Pac-Man Dodge.<span class="text-muted"></span></h5>
-                                        <p class="card-text">Using Unity3D with a team, I recreated Pac-Man with advanced AI.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://github.com/leoneljerez/PacmanDodge/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
-                                            </div>
-                                            <div class="ms-auto flex-wrap">
-                                                <small class="text-muted me-1 mb-1">C#</small>
-                                                <small class="text-muted mb-1">Unity</small>
-                                            </div>
+                                        <h5 class="card-title">Pac-Man Dodge.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using Unity3D with a team, I recreated Pac-Man with advanced AI.</p>                                       
+                                    </div>
+                                    <div class="card-footer d-flex align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/leoneljerez/PacmanDodge/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                        </div>
+                                        <div class="ms-auto flex-wrap">
+                                            <small class="text-muted me-1 mb-1">C#</small>
+                                            <small class="text-muted mb-1">Unity</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card shadow-sm">
-                                    <rect width="100%" height="100%" fill="#55595c">
-                                        <picture class="card-img-top">
-                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
-                                        </picture>
-                                    </rect>
+                                <div class="card h-100 shadow-sm">
+                                    <picture class="card-img-top">
+                                        <img src="https://via.placeholder.com/150x100/" width="100%" height="100%" >
+                                    </picture> 
                                     <div class="card-body">
-                                        <h5 class="featurette-heading">Garden Spy.<span class="text-muted"></span></h5>
-                                        <p class="card-text">Using Android Studio with a team, I created an app that will take care of a plant by itself.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://github.com/leoneljerez/superhots/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
-                                            </div>
-                                            <div class="ms-auto flex-wrap">
-                                                <small class="text-muted me-1 mb-1">Java</small>
-                                                <small class="text-muted me-1 mb-1">Python</small>
-                                                <small class="text-muted me-1 mb-1">Firebase</small>
-                                                <small class="text-muted mb-1">Android Studio</small>
-                                            </div>
+                                        <h5 class="card-title">Garden Spy.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using Android Studio with a team, I created an app that will take care of a plant by itself.</p>                                      
+                                    </div>
+                                    <div class="card-footer d-flex align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/leoneljerez/superhots/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                        </div>
+                                        <div class="ms-auto flex-wrap">
+                                            <small class="text-muted me-1 mb-1">Java</small>
+                                            <small class="text-muted me-1 mb-1">Python</small>
+                                            <small class="text-muted me-1 mb-1">Firebase</small>
+                                            <small class="text-muted mb-1">Android Studio</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <rect width="100%" height="100%" fill="#55595c">
-                                        <picture class="card-img-top">
-                                            <img src="https://via.placeholder.com/150x100/" width="100%" height="auto">
-                                        </picture>
-                                    </rect>
+                            <div class="col animate__animated animate__backInUp">
+                                <div class="card h-100 shadow-sm">
+                                    <picture class="card-img-top">
+                                        <img width="150px" height="100px" class="moviedb">
+                                    </picture> 
                                     <div class="card-body">
-                                        <h5 class="featurette-heading">The Movie Database.<span class="text-muted"></span></h5>
-                                        <p class="card-text">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="btn-group">
-                                                <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
-                                            </div>
-                                            <div class="ms-auto flex-wrap">
-                                                <small class="text-muted me-1 mb-1">React.JS</small>
-                                                <small class="text-muted me-1 mb-1">HTML5</small>
-                                                <small class="text-muted mb-1">CSS3</small>
-                                            </div>
+                                        <h5 class="card-title">The Movie Database.<span class="text-muted"></span></h5>
+                                        <p class="card-text">Using the TheMovieDB API, I created a React.JS website that allows users to search for a particular movie and pull more information on it.</p>                                       
+                                    </div>
+                                    <div class="card-footer d-flex align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/leoneljerez/moviedb/" target="_blank" class="nav-link px-2 text-muted"><i class="fab fa-github icon-overlay" style="color: black;"></i></a>
+                                        </div>
+                                        <div class="ms-auto flex-wrap">
+                                            <small class="text-muted me-1 mb-1">React.JS</small>
+                                            <small class="text-muted me-1 mb-1">HTML5</small>
+                                            <small class="text-muted mb-1">CSS3</small>
                                         </div>
                                     </div>
                                 </div>

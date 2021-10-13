@@ -151,3 +151,48 @@
     height: 50vh;
   }
 }
+
+.pacman { 
+  background-image: url(../media/PacMan.png);
+  /*filter: contrast(80%) brightness(80%) blur(1px);*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pacman:hover {
+  background-image: url(../media/PacMan.gif);
+  /*filter: none;*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moviedb { 
+  background-image: url(../media/MovieDB.png);
+  /*filter: contrast(80%) brightness(80%) blur(1px);*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moviedb:hover {
+  background-image: url(../media/MovieDB.gif);
+  /*filter: none;*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-footer {
+  border-top: none!important;
+  background-color: unset!important;
+}
