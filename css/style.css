@@ -192,6 +192,26 @@
   background-size: cover;
 }
 
+.gardenspy { 
+  background-image: url(../media/GardenSpy.jpg);
+  /*filter: contrast(80%) brightness(80%) blur(1px);*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gardenspy:hover {
+  background-image: url(../media/GardenSpy.gif);
+  /*filter: none;*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-footer {
   border-top: none!important;
   background-color: unset!important;
