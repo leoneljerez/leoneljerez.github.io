@@ -23,6 +23,42 @@
   color: #b8b8b8
 }
 
+.tunestore { 
+  background-image: url(../media/Tunestore.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tunestore:hover {
+  background-image: url(../media/Tunestore.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tictactoe { 
+  background-image: url(../media/tictactoe.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tictactoe:hover {
+  background-image: url(../media/tictactoe.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .moviedb { 
   background-image: url(../media/MovieDB.png);
   height: 100%;
