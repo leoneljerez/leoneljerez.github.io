@@ -11,7 +11,7 @@
   height: 100vh;
 }
 
-.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
   color: var(--main-focus-color) !important;
 }
 
